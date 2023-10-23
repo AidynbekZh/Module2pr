@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6C1D487-E92F-4783-A94E-5482F7D429BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Module2pr</RootNamespace>
+    <AssemblyName>Module2pr</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tasks\practice.cs" />
+    <Compile Include="tasks\practice1.cs" />
+    <Compile Include="tasks\practice10.cs" />
+    <Compile Include="tasks\practice11.cs" />
+    <Compile Include="tasks\practice13.cs" />
+    <Compile Include="tasks\practice14.cs" />
+    <Compile Include="tasks\practice15.cs" />
+    <Compile Include="tasks\practice16.cs" />
+    <Compile Include="tasks\practice17.cs" />
+    <Compile Include="tasks\practice18.cs" />
+    <Compile Include="tasks\practice19.cs" />
+    <Compile Include="tasks\practice2.cs" />
+    <Compile Include="tasks\practice20.cs" />
+    <Compile Include="tasks\practice21.cs" />
+    <Compile Include="tasks\practice22.cs" />
+    <Compile Include="tasks\practice23.cs" />
+    <Compile Include="tasks\practice24.cs" />
+    <Compile Include="tasks\practice25.cs" />
+    <Compile Include="tasks\practice26.cs" />
+    <Compile Include="tasks\practice3.cs" />
+    <Compile Include="tasks\practice4.cs" />
+    <Compile Include="tasks\practice5.cs" />
+    <Compile Include="tasks\practice6.cs" />
+    <Compile Include="tasks\practice7.cs" />
+    <Compile Include="tasks\practice8.cs" />
+    <Compile Include="tasks\practice9.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tasks\module2Practice.csproj" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
